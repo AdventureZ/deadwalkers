@@ -1,3 +1,7 @@
+-- ------------------------------------------------------------
+-- This list of items contains all medic items and their 
+-- settings.
+-- ------------------------------------------------------------
 gameMedicItems = {
 	["MedicKit"] = {
 		["item_name"] = "Kit Médico",
@@ -21,6 +25,11 @@ gameMedicItems = {
 	},
 }
 
+
+-- ------------------------------------------------------------
+-- This list of items contains all food items and their 
+-- settings.
+-- ------------------------------------------------------------
 gameFoodItems = {
 	["Burger"] = {
 		["item_name"] = "Hambúrguer",
@@ -82,8 +91,19 @@ gameFoodItems = {
 		["max_restore"] = 0,
 		["item_slots_size"] = 1,
 	},
+	["Milk"] = {
+		["item_name"] = "Caixa de Leite",
+		["max_health"] = 400, -- normally does not give health
+		["max_restore"] = 80,
+		["item_slots_size"] = 1,
+	},
 }
 
+
+-- ------------------------------------------------------------
+-- This list of items contains all clothing items and their 
+-- settings.
+-- ------------------------------------------------------------
 gameClothingItems = {
 	["Survivor"] = {
 		["item_name"] = "Roupa de Sobrevivente",
@@ -101,4 +121,72 @@ gameClothingItems = {
 		["item_name"] = "Ghillie Suit (Floresta)",
 		["item_slots_size"] = 1,
 	},
+	["Military"] = {
+		["item_name"] = "Roupa Militar",
+		["item_slots_size"] = 1,
+	},
+}
+
+
+-- ------------------------------------------------------------
+-- This list of items contains all useful items and their 
+-- settings.
+-- ------------------------------------------------------------
+gameUtilItems = {
+	["RoadFlare"] = {
+		["item_name"] = "Sinalizador",
+		["item_slots_size"] = 1,
+	},
+	["WoodPile"] = {
+		["item_name"] = "Lenha",
+		["item_slots_size"] = 2,
+	},
+	["EmptyPatrol"] = {
+		["item_name"] = "Galão de Gasolina (vazio)",
+		["item_slots_size"] = 1,
+	},
+	["FullPatrol"] = {
+		["item_name"] = "Galão de Gasolina",
+		["item_slots_size"] = 1,
+	},
+	["WireFence"] = {
+		["item_name"] = "Cerca de Arame",
+		["item_slots_size"] = 1,
+	},
+	["Tent"] = {
+		["item_name"] = "Tenda",
+		["item_slots_size"] = 4,
+	},
+	["Tire"] = {
+		["item_name"] = "Pneu",
+		["item_slots_size"] = 2,
+	},
+	["Engine"] = {
+		["item_name"] = "Motor",
+		["item_slots_size"] = 4,
+	},
+	["Watch"] = {
+		["item_name"] = "Relógio",
+		["item_slots_size"] = 0,
+	},
+	["GPS"] = {
+		["item_name"] = "GPS",
+		["item_slots_size"] = 0,
+	},
+	["Map"] = {
+		["item_name"] = "Mapa",
+		["item_slots_size"] = 0,
+	},
+	["Toolbox"] = {
+		["item_name"] = "Ferramentas",
+		["item_slots_size"] = 2,
+	},
+	["BoxOfMatches"] = {
+		["item_name"] = "Caixa de Fósforos",
+		["item_slots_size"] = 0,
+	},
+	["Radio"] = {
+		["item_name"] = "Rádio",
+		["item_slots_size"] = 0,
+	},	
 }
